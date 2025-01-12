@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { LuLeaf } from 'react-icons/lu';
 import { TbHeartRateMonitor } from "react-icons/tb";
 import { SiGoogleanalytics } from "react-icons/si";
@@ -10,11 +11,12 @@ const Header = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-green-100 animate-fadeIn">
 
-<button className="absolute top-4 right-4 bg-green-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-green-700 flex items-center space-x-2 transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
-        
-        <span>Daily Market Price </span>
-        <FaArrowRightToBracket className="text-white text-lg" /> {/* Arrow Icon */}
-      </button>
+<Link to="/daily-price">
+        <button className="absolute top-4 right-4 bg-green-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md hover:bg-green-700 flex items-center space-x-2 transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
+          <span>Daily Market Price</span>
+          <FaArrowRightToBracket className="text-white text-lg" />
+        </button>
+      </Link>
       
       {/* Header Section */}
       <div className="flex items-center mb-4">
