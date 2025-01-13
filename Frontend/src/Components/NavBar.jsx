@@ -6,9 +6,9 @@ const NavBar = () => {
   return (
     <div className="flex bg-white p-4 rounded-lg border-2 border-black shadow-lg mt-15 w-full justify-between">
       <div className="flex items-center">
-        {/* Hotel Icon beside Retailer Dashboard */}
-        <FaHotel className="text-7xl mr-2" />
-        <div className="text-4xl font-semibold">Distributor Dashboard</div>
+        {/* Restaurant Image beside Retailer Dashboard */}
+        <img src="/restro.png" alt="Restaurant" className="w-16 h-16 mr-2" />
+        <div className="text-4xl font-semibold">Restaurant Dashboard</div>
       </div>
 
       {/* Links in the center */}
@@ -30,9 +30,10 @@ const NavBar = () => {
 
       {/* User Icon with Username beside it on the right side */}
       <div className="flex items-center">
-        <FaCircleUser className="text-5xl mr-2" />
-        <div className="text-lg font-bold">APMC</div>
-      </div>
+      {/* Login Image beside APMC */}
+      <img src="/login.png" alt="Login" className="w-12 h-12 mr-2" />
+      <div className="text-lg font-bold">APMC</div>
+    </div>
     </div>
   );
 }

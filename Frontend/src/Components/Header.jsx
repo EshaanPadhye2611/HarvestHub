@@ -23,10 +23,10 @@ const Header = () => {
         <LuLeaf 
           className="text-green-500 text-8xl mr-4 transform transition-transform duration-300 hover:scale-110 hover:rotate-12" 
         />
-        <h1 className="text-7xl font-bold text-green-900">HarvestHub</h1>
+        <h1 className="text-7xl font-bold text-green-900">NourishAI</h1>
       </div>
       <p className="text-2xl text-green-600 text-center mx-6 my-2 font-bold">
-        Empowering practices for food wastage reduction to monitor in every possible area.
+      Harnessing AI to Revolutionize Food Systems, Optimize Resources, and Ensure Every Plate is Sustainable and Waste-Free.
       </p>
 
       {/* Icon Boxes */}
@@ -35,7 +35,7 @@ const Header = () => {
         {/* Left Box */}
         <div className="flex flex-col items-center justify-center p-6 rounded-3xl shadow-md w-1/3 h-48 bg-green-200 transform transition-transform duration-300 hover:scale-105 hover:shadow-lg">
           <TbHeartRateMonitor className="text-green-600 text-6xl" />
-          <p className="text-green-600 text-xl font-semibold mt-4">Smart Monitoring</p>
+          <p className="text-green-600 text-xl font-semibold mt-4">Smart AI-Monitoring</p>
         </div>
 
         {/* Center Box */}
