@@ -1,9 +1,9 @@
 const FoodItemsTable = () => {
     const foodItems = [
-      { food: "Orange", expiry: "Nov. 12, 2024", status: "Expiring Soon" },
-      { food: "Apple", expiry: "Jan. 12, 2024", status: "Expired" },
-      { food: "Strawberry", expiry: "Jan. 12, 2025", status: "Good" },
-      { food: "Mango", expiry: "Jan. 12, 2026", status: "Good" },
+      { food: "Chicken", expiry: "Feb. 12, 2025", status: "Good" },
+      { food: "Cheese ", expiry: "Jan. 19, 2025", status: "Expiring Soon" },
+      { food: "Wine", expiry: "Jan. 12, 2025", status: "Expired" },
+      { food: "Vegtables", expiry: "Jan. 25, 2025", status: "Good" },
     ];
   
     return (

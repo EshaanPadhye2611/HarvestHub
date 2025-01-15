@@ -1,16 +1,16 @@
 import React from "react";
-import Sidebar from '../../Components/SideBar';
-import Header from "../../Components/Header_1";
-import FoodItemsTable from '../../Components/FoodItemsTable';
-import AIRecipe from '../../Components/AIRecipe';
-import NavBar from "../../Components/NavBar";
-import Analytics from "../../Components/Analytics";
+import Sidebar from '../../Components/Restaurant/SideBar';
+import Header from "../../Components/Restaurant/Header_1";
+import FoodItemsTable from '../../Components/Restaurant/FoodItemsTable';
+import AIRecipe from '../../Components/Restaurant/AIRecipe';
+import NavBar from "../../Components/Restaurant/NavBar";
+import Analytics from "../../Components/Restaurant/Analytics";
 
 const RetailerPage = () => {
   return (
-    <div>
+    <div className="animate-fadeIn">
       <NavBar />
-      <div className="flex">
+      <div className="flex ">
         {/* Sidebar */}
         <Sidebar />
         

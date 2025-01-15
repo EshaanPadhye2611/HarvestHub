@@ -32,7 +32,7 @@ const NavBar = () => {
       <div className="flex items-center">
       {/* Login Image beside APMC */}
       <img src="/login.png" alt="Login" className="w-12 h-12 mr-2" />
-      <div className="text-lg font-bold">APMC</div>
+      <div className="text-lg font-bold">New Punjab</div>
     </div>
     </div>
   );
